@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<div class="gridContainer">
+	<div class="header">
+		Dealer <span id="dealerSoft"></span> <span id="dealerScore"></span>
+	</div>
+	<div id="dealerCards"></div>
+	<div class="header">
+		Player <span id="playerSoft1"></span> <span id="score1"></span>
+	</div>
+	<div id="playerCards1"></div>
+	<!--
+	<div id="player2">
+		Player <span id="playerSoft2"></span> <span id="score2"></span>
+		<div id="playerCards2"></div>
+	</div>
+	-->
+	<div class="buttons">
+		<button onclick="stand();" id="standButton">Stand</button>
+		<button onclick="hit(1);" id="hitButton">Hit</button>
+		<button disabled="disabled" id="doubleButton">Double</button>
+		<button disabled="disabled" id="splitButton">Split</button>
+		<button disabled="disabled" id="insuranceButton">Insurance</button>
+		<button onclick="deal();" disabled="disabled" id="dealButton">Deal</button>
+	</div>
+	<div>
+		<span id="message"></span> Balance: $<span id="balance"></span>
+	</div>
+</div>
+<link rel="stylesheet" href="blackjack.css" />
+<script src="js/neutralino.js"></script>
+<script src="js/main.js"></script>
+<script src="blackjack.js"></script>
+</html>
