@@ -1,9 +1,11 @@
-const staticCacheName = "blackjack-static-v2";
+const staticCacheName = "blackjack-static-v3";
 const assets = [
 	"/blackjack/",
 	"/blackjack/index.html",
-	"/blackjack/blackjack.css",
-	"/blackjack/blackjack.js"
+	"/blackjack/club.svg",
+	"/blackjack/diamond.svg",
+	"/blackjack/heart.svg",
+	"/blackjack/spade.svg"
 ];
 
 self.addEventListener("install", installEvent => {
