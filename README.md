@@ -1,1 +1,1 @@
-PWA Blackjack Game
+PWA Blackjack Game (Svelte)
