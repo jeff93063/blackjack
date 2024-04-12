@@ -1,4 +1,4 @@
-const staticCacheName = "blackjack-static-v3";
+const staticCacheName = "blackjack-static-v4";
 const assets = [
 	"/blackjack/",
 	"/blackjack/index.html",
